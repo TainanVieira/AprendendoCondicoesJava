@@ -12,18 +12,14 @@ public class Main {
          * == è igual
          * equal: compara textos
          * != diferente
-
-         **/
-        if (idadePessoa > 21){
-            System.out.println("é maior que 21");
-        }else {
+         */
+        if (idadePessoa < 18) {
+            System.out.println("é Menor de idade");
+        } else {
             System.out.println("Não é maior");
         }
 
 
-
-
-
-
     }
 }
+
